@@ -62,7 +62,7 @@ class MyHomePage extends StatelessWidget {
                       ),
                       child: ClipOval(
                         child: Image.network(
-                          "https://static-store.gaijin.net/img/screenshots/833D7958-03E9-46CD-8BC3-59D11347D75F/big/001.jpg?v=20251114_141441",
+                          "",
                           width: 150,
                           height: 150,
                           fit: BoxFit.cover,
@@ -100,6 +100,34 @@ class MyHomePage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [Text("เบอร์"), Text("063-049-9131")],
                       ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        padding: EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: Colors.orange[100],
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: Icon(Icons.mail, size: 30, color: Colors.amber,),
+                      ),
+                      SizedBox(width: 10),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [Text("Email"),Text("Thiraphat.Phansanit@e-tech.ac.th")],
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        padding: EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                          color: Colors.orange[100],
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                      )
                     ],
                   ),
                   ElevatedButton(
